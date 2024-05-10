@@ -1,0 +1,163 @@
+/* Laptop Screen */
+@media only screen and (max-width: 1200px) {
+    li.nav-item.nav-space {
+        padding: 10px 15px;
+    }
+    .pr-top-head h1 {
+        padding-top: 240px;
+    }
+    .pr-hero-bg {
+        height: 534px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 0;
+    }
+    button.navbar-toggler {
+        padding: 5px 8px;
+        border: 0px;
+    }
+    li.nav-item.nav-space {
+        padding: 2px 10px;
+    }
+    nav.navbar.navbar-expand-lg.navbar-light.navbar-bg {
+        background: #D9D9D9;
+        padding: 10px 0px;
+    }
+}
+/* tab to mobile Screen */
+@media only screen and (max-width: 767px) {
+    nav.navbar.navbar-expand-lg.navbar-light.navbar-bg {
+        background: #D9D9D9;
+        padding: 10px 0px;
+    }
+    li.nav-item.nav-space {
+        padding: 0px 5px;
+    }
+    img.d-inline-block.align-text-top.nav-logo {
+        width: 100px;
+    }
+    .navbar-toggler-icon {
+        width: 1.5em;
+        height: 1.5em;
+    }
+    button.navbar-toggler {
+        padding: 5px 8px;
+        border: 0px;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 0;
+    }
+    .pr-hero-bg {
+        height: 320px;
+        padding-left: 0px;
+    }
+    .pr-top-head h1 {
+        padding-top: 75px;
+        font-size: 16px;
+    }
+.pr-top-head h2 {
+    font-size: 25px;
+    font-weight: 700;
+}
+.pr-top-head p {
+    padding-top: 0px;
+    line-height: 23px;
+}  
+.pr-sign-sec {
+    padding-top: 0px;
+}
+h3.pr-headings {
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.pr-mis-vis p {
+    padding-top: 3px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.pr-mivi-bottom {
+    margin-top: 20px;
+    padding: 0px 40px 30px 40px;
+}
+.pr-mivi-content {
+    padding-left: 15px;
+}
+.pr-mivi-content img{
+    width: 40px;
+}
+}
+
+/* Mobile Screen */
+@media only screen and (max-width: 450px) {
+    .pr-hero-bg {
+        height: 250px;
+        margin-top: 10px;
+    }
+    .pr-top-head h1 {
+        padding-top: 100px;
+        font-size: 14px;
+    }
+    .pr-top-head h2 {
+        font-size: 16px;
+        font-weight: 700;
+        padding-top: 2px;
+    }
+.pr-top-head p {
+    padding-top: 0px;
+    line-height: 16px;
+    font-size: 9px;
+    font-weight: 700;
+}
+img.img-fluid.pr-sign {
+    height: 20px;
+}
+.pr-mis-vis {
+    margin-top: 15px;
+}
+h3.pr-headings {
+    font-size: 18px;
+    margin-top: 25px;
+}
+.pr-mis-vis p {
+    padding-top: 3px;
+    font-size: 12px;
+    line-height: 18px;
+}
+.pr-mivi-content p {
+    font-size: 12px;
+    line-height: 16px;
+    padding-right: 0px;
+}
+.pr-mivi-bottom {
+    margin-top: 24px;
+    padding: 0px 0px 30px 0px;
+}
+.pre-brand-ann {
+    margin-top: 0px;
+    padding: 0px 20px;
+}
+.pr-ann-sec {
+    text-align: center;
+    padding: 15px 15px;
+}
+.pr-ann-sec h5 {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.pr-ann-sec p {
+    font-size: 13px;
+    padding-top: 0px;
+}
+.col-lg-4.col-md-6.col-sm-12.mt-5.pr-brand-ann {
+    margin-top: 15px !important;
+}
+img.img-fluid.ann-icons {
+    width: 60px;
+}
+}
