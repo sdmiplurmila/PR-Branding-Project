@@ -1,4 +1,11 @@
 /* Laptop Screen */
+@media only screen and (max-width: 1400px) {
+    .strenght-sec-top h5 {
+        padding-right: 45px;
+        line-height: 50px;
+    }
+   
+}
 @media only screen and (max-width: 1200px) {
     li.nav-item.nav-space {
         padding: 10px 15px;
@@ -9,6 +16,18 @@
     .pr-hero-bg {
         height: 534px;
     }
+    .pr-social-work p {
+        line-height: 24px;
+        margin-top: 15px;
+        padding: 0px 13px;
+    }
+    .pr-social-work2 {
+        left: 50px;
+    }
+    .pr-social-work3 {
+        left: 50px;
+    }
+   
 }
 @media only screen and (max-width: 992px) {
     .navbar-toggler:focus {
@@ -26,6 +45,21 @@
     nav.navbar.navbar-expand-lg.navbar-light.navbar-bg {
         background: #D9D9D9;
         padding: 10px 0px;
+    }
+    .pr-social-beaft::before{
+        display: none;
+    }
+    .pr-social-beaft::after {
+        display: none;
+    }
+    .pr-social-services::after{
+        display: none;
+    }
+    .pr-social-work3 {
+        left: 90px;
+    }
+    .pr-social-work2 {
+        left: 90px;
     }
 }
 /* tab to mobile Screen */
@@ -56,19 +90,40 @@
     .pr-hero-bg {
         height: 320px;
         padding-left: 0px;
+        position: relative;
+    }
+    .pr-top-head {
+        position: relative;
+        padding-top: 65px;
+    }
+    .pr-hero-bg::before {
+        content: "";
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 320px;
+        width: 100%;
+        padding-left: 0px;
     }
     .pr-top-head h1 {
-        padding-top: 75px;
-        font-size: 16px;
+        padding-top: 0;
+        font-size: 18px;
+        color: var(--light-color);
+        font-weight: 500;
     }
-.pr-top-head h2 {
-    font-size: 25px;
-    font-weight: 700;
-}
-.pr-top-head p {
-    padding-top: 0px;
-    line-height: 23px;
-}  
+    .pr-top-head h2 {
+        font-size: 25px;
+        font-weight: 500;
+        color: var(--light-color);
+    }
+    .pr-top-head p {
+        padding-top: 10px;
+        line-height: 23px;
+        color: var(--light-color);
+        font-weight: 500;
+        font-size: 14px;
+    }
 .pr-sign-sec {
     padding-top: 0px;
 }
@@ -91,17 +146,56 @@ h3.pr-headings {
 .pr-mivi-content img{
     width: 40px;
 }
+.strenght-sec-top h5 {
+    padding-right: 0px;
+    line-height: 35px;
+    font-size: 25px;
+}
+.strenght-sec-top p {
+    font-size: 14px;
+    padding-top: 15px;
+    line-height: 28px;
+}
+.pregress-counting {
+    padding-top: 0px;
+}
+img.img-fluid.str-politic {
+    height: 390px;
+}
+.pr-social-work2 {
+    left: 242px;
+}
+.pr-social-work3 {
+    left: 242px;
+}
+.pr-social-services-inner {
+    text-align: center;
+    margin-top: 25px;
+}
+.pr-social-services {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+}
+
+/* Mobile Screen */
+@media only screen and (max-width: 555px) {
+    .pr-social-work3 {
+        left: 230px;
+    }
+    .pr-social-work2 {
+        left: 230px;
+    }
 }
 
 /* Mobile Screen */
 @media only screen and (max-width: 450px) {
+    .pr-hero-bg::before {
+        height: 250px;
+    }
     .pr-hero-bg {
         height: 250px;
         margin-top: 10px;
-    }
-    .pr-top-head h1 {
-        padding-top: 100px;
-        font-size: 14px;
     }
     .pr-top-head h2 {
         font-size: 16px;
@@ -126,8 +220,8 @@ h3.pr-headings {
 }
 .pr-mis-vis p {
     padding-top: 3px;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 14px;
+    line-height: 25px;
 }
 .pr-mivi-content p {
     font-size: 12px;
@@ -160,4 +254,34 @@ h3.pr-headings {
 img.img-fluid.ann-icons {
     width: 60px;
 }
+img.img-fluid.str-politic {
+    height: 320px;
+}
+.strenght-sec-top h5 {
+    line-height: 30px;
+    font-size: 22px;
+    padding-top: 15px;
+}
+.pr-social-work3 {
+    left: 190px;
+}
+.pr-social-work2 {
+    left: 190px;
+}
+}
+@media only screen and (max-width: 400px) {
+    .pr-social-work3 {
+        left: 165px;
+    }
+    .pr-social-work2 {
+        left: 165px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .pr-social-work3 {
+        left: 150px
+    }
+    .pr-social-work2 {
+        left: 150px
+    }
 }
