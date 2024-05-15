@@ -235,6 +235,21 @@
     footer {
         margin-top: 50px;
     }
+    .pr-top-events {
+        text-align: center;
+        margin-top: 26px;
+    }
+    .pr-top-events p {
+        font-size: 13px;
+        line-height: 28px;
+        padding-top: 5px;
+    }
+    .pr-event-left {
+        margin-top: 15px;
+    }
+    .pr-event-right {
+        margin-top: 15px;
+    }
 }
 /* tab to mobile Screen */
 @media only screen and (max-width: 767px) {
@@ -515,6 +530,27 @@ footer {
 .pr-abt-volunteer p {
     font-size: 12px;
     line-height: 20px;
+}
+.pr-top-events h2 {
+    font-size: 18px;
+}
+.pr-top-events {
+    margin-top: 10px;
+}
+.pr-top-events p {
+    font-size: 12px;
+    line-height: 21px;
+    padding-top: 5px;
+    font-weight: 500;
+}
+.pr-event-left h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.pr-event-left p {
+    font-size: 13px;
+    line-height: 21px;
+    padding-top: 5px;
 }
 }
 

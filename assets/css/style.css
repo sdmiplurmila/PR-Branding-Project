@@ -798,3 +798,61 @@ footer {
 /* =====================
  End About Page CSS
  ======================= */
+
+ /* =====================
+ Start Events Page CSS 
+ ========================*/
+ .pr-top-events {
+    text-align: center;
+    margin-top: 75px;
+}
+.pr-top-events h2{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: var(--headding-font-family);
+    text-transform: uppercase;
+    color: var(--dark-color);
+}
+.pr-top-events span{
+  color: var(--main-color);
+}
+.pr-top-events p{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--words-font-family);
+    text-transform: uppercase;
+    color: var(--dark-color);
+    line-height: 30px;
+    padding-top: 20px;
+}
+.pr-event-left {
+    margin-top: 50px;
+}
+.pr-event-right {
+    margin-top: 50px;
+}
+.pr-event-left h3 {
+    color: var(--light-text-color);
+    font-size: 30px;
+    font-weight: 700;
+    font-family: var(--words-font-family);
+}
+.pr-event-left p{
+    color:var(--dark-color);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--words-font-family);
+    line-height: 25px;
+    padding-top: 15px;
+}
+.pr-con-lefttop img{
+    height: 215px;
+    width: 100%;
+}
+.pr-con-leftbtm img{
+    height: 215px;
+    width: 100%;
+}
+ /* =====================
+ End Events Page CSS 
+ ========================*/
