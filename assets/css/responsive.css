@@ -97,6 +97,30 @@
     .pr-community-bottom {
         padding-left: 0;
     }
+    .pr-footer1 {
+        margin-top: 60px;
+    }
+    .pr-footer2 {
+        margin-top: 60px;
+    }
+    .pr-footer4 {
+        margin-top: 60px;
+    }
+    .pr-footer2 ul, li, a {
+        line-height: 25px;
+    }
+    .pr-footer-line {
+        margin-top: 30px;
+    }
+    .pr-footer2 h6 {
+        padding-bottom: 10px;
+    }
+    .pr-footer4 h6 {
+        padding-bottom: 10px;
+    }
+    .footer-bottom-copy {
+        margin-top: 25px;
+    }
 }
 /* tab to mobile Screen */
 @media only screen and (max-width: 767px) {
@@ -160,6 +184,10 @@
         font-weight: 500;
         font-size: 14px;
     }
+    img.img-fluid.p-sign-brand {
+        width: 100px;
+        height: auto;
+    }   
 .pr-sign-sec {
     padding-top: 0px;
 }
@@ -242,14 +270,55 @@ img.img-fluid.str-politic {
 }
 .testimonial-section {
     background: var(--background-light);
-    padding: 25px 0px;
-    margin-top: 28px;
+    padding: 15px 0px;
+    margin-top: 15px;
 }
 .owl-dots {
     bottom: -60px;
 }
 .pr-testimonial-sec2 p {
     line-height: 25px;
+}
+footer {
+    margin-top: 75px;
+    height: 100%;
+}
+.pr-footer1 {
+    margin-top: 35px;
+}
+.pr-footer1 p {
+    color: rgba(255, 225, 170, 1);
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.pr-footer2 {
+    margin-top: 30px;
+}
+.pr-footer4 {
+    margin-top: 30px;
+}
+.pr-footer2 h6 {
+    font-weight: 600;
+    font-size: 20px;
+}
+.pr-footer4 h6 {
+    font-weight: 600;
+    font-size: 20px;
+}
+.pr-social-icons {
+    margin-top: 20px;
+}
+.pr-footer-line {
+    margin-top: 20px;
+}
+.footer-bottom-copy {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer-bottom-copy p {
+    font-weight: 600;
+    font-size: 18px;
 }
 }
 
@@ -364,6 +433,22 @@ img.img-fluid.str-politic {
 .pr-community-sec {
     margin-top: 25px;
 }
+.pr-footer1 {
+    margin-top: 25px;
+}
+.pr-footer1 img {
+    width: 130px;
+}
+.pr-footer2 {
+    margin-top: 20px;
+}
+.pr-footer4 {
+    margin-top: 20px;
+}
+.footer-bottom-copy p {
+    font-weight: 500;
+    font-size: 16px;
+}
 }
 @media only screen and (max-width: 400px) {
     .pr-social-work3 {
@@ -375,9 +460,9 @@ img.img-fluid.str-politic {
 }
 @media only screen and (max-width: 375px) {
     .pr-social-work3 {
-        left: 150px
+        left: 140px;
     }
     .pr-social-work2 {
-        left: 150px
+        left: 140px
     }
 }
