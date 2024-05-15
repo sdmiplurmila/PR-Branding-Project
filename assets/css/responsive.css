@@ -60,7 +60,42 @@
     .pr-social-work3 {
         left: 50px;
     }
+    .pr-about-sec h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .pr-about-sec p {
+        line-height: 26px;
+    }
+    .pr-party-membtm .pr-party-para {
+        padding-top: 18px;
+    }
+    .pr-party-membtm table {
+        margin-top: 10px;
+    }
+    .pr-sign-party {
+        margin-top: 15px;
+    }
+    .pr-members-social ul {
+        margin-top: 25px;
+    }
+    .pr-abt-content h5 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .pr-abt-content p {
+        padding-top: 10px;
+        line-height: 24px;
+    }
    
+}
+@media only screen and (max-width: 1024px) {
+    .pr-pagehero-bg {
+        height: 430px;
+    }
+    .pr-top-head-about {
+        padding-top: 200px;
+    }   
 }
 @media only screen and (max-width: 992px) {
     .navbar-toggler:focus {
@@ -120,6 +155,85 @@
     }
     .footer-bottom-copy {
         margin-top: 25px;
+    }
+    .pr-pagehero-bg {
+        height: 321px;
+    }
+    .pr-top-head-about {
+        padding-top: 185px;
+    }
+    .pr-top-head-about h1 {
+        font-size: 40px;
+        padding-left: 0px;
+    }
+    .pr-about-sec {
+        margin-top: 20px;
+    }
+    .pr-about-sec2 {
+        margin-top: 20px;
+    }
+    .pr-top-mem p {
+        padding: 5px 30px 0px;
+    }
+    .pr-party-mem {
+        text-align: center;
+    }
+    .pr-party-membtm h4 {
+        padding-top: 0px;
+    }
+    .pr-party-membtm .pr-party-para {
+        padding-top: 10px;
+        line-height: 24px;
+    }
+    .pr-party-membtm table tr td {
+        line-height: 22px;
+        font-size: 11px;
+    }
+    .pr-sign-party {
+        margin-top: 5px;
+    }
+    .pr-about-support {
+        margin-top: 35px;
+        height: 420px;
+        position: relative;
+    }
+    .pr-about-support::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgb(0, 0, 0, 0.6);
+        margin-top: 0px;
+        height: 420px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .pr-abt-volunteer h6 {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 38px;
+        padding-bottom: 20px;
+    }
+    .pr-abt-volunteer {
+        margin-top: 20px;
+    }
+    .pr-abt-volunteer p.pr-abt-headvol {
+        font-size: 50px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .owl-dots {
+        text-align: center;
+        padding-top: 0px;
+        position: absolute;
+        bottom: 0px;
+        margin: auto;
+        width: 100%;
+        display: none;
+    }
+    footer {
+        margin-top: 50px;
     }
 }
 /* tab to mobile Screen */
@@ -280,7 +394,7 @@ img.img-fluid.str-politic {
     line-height: 25px;
 }
 footer {
-    margin-top: 75px;
+    margin-top: 15px;
     height: 100%;
 }
 .pr-footer1 {
@@ -320,6 +434,88 @@ footer {
     font-weight: 600;
     font-size: 18px;
 }
+.pr-pagehero-bg {
+    height: 310px;
+}
+.pr-top-head-about h1 {
+    font-size: 30px;
+}
+.pr-top-head-about {
+    padding-top: 145px;
+}
+.pr-top-mem {
+    margin-top: 20px;
+}
+.pr-top-mem p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 0px 0px 0px;
+}
+.pr-party-mem {
+    margin-top: 15px;
+}
+.pr-top-mem h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.pr-party-mem h4 {
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.pr-party-mem p {
+    padding-top: 5px;
+}
+.pr-party-memprofile {
+    margin-top: 25px;
+}
+.pr-party-membtm {
+    margin-top: 15px;
+}
+.pr-party-membtm h4 {
+    font-size: 18px;
+}
+.pr-party-membtm p {
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 2px;
+}
+.pr-about-support {
+    margin-top: 30px;
+    height: 270px;
+}
+.pr-about-support::before {
+    height: 270px;
+}
+.pr-abt-content {
+    padding-top: 35px;
+    padding-left: 0px;
+    position: relative;
+}
+.pr-abt-content h5 {
+    font-size: 23px;
+}
+.pr-abt-content p {
+    padding-top: 10px;
+    line-height: 20px;
+    font-size: 14px;
+}
+.pr-abt-volunteer h6 {
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+.pr-abt-volunteer p.pr-abt-headvol {
+    font-size: 25px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+.pr-abt-volunteer p {
+    font-size: 12px;
+    line-height: 20px;
+}
 }
 
 /* Mobile Screen */
@@ -329,6 +525,31 @@ footer {
     }
     .pr-social-work2 {
         left: 230px;
+    }
+    .pr-pagehero-bg {
+        height: 228px;
+    }
+    .pr-top-head-about h1 {
+        font-size: 25px;
+    }
+    .pr-top-head-about {
+        padding-top: 110px;
+    }
+    .pr-about-sec h2 {
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .pr-about-sec p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .pr-abt-volunteer h6 {
+        font-size: 16px;
+        line-height: 22px;
+        padding-bottom: 5px;
+    }
+    .pr-abt-volunteer p.pr-abt-headvol {
+        font-size: 20px;
     }
 }
 
@@ -449,6 +670,57 @@ img.img-fluid.str-politic {
     font-weight: 500;
     font-size: 16px;
 }
+.pr-pagehero-bg {
+    height: 180px;
+}
+.pr-top-head-about h1 {
+    font-size: 25px;
+}
+.pr-top-head-about {
+    padding-top: 85px;
+}
+.pr-about-sec h2 {
+    font-size: 18px;
+    line-height: 32px;
+}
+.pr-about-sec p {
+    font-weight: 400;
+}
+.pr-about-sec {
+    margin-top: 10px;
+}
+.pr-about-sec2 {
+    margin-top: 10px;
+}
+.pr-abt-content h5 {
+    font-size: 20px;
+}
+.pr-about-support {
+    margin-top: 15px;
+    height: 185px;
+}
+.pr-about-support::before {
+    height: 185px;
+}
+.pr-abt-content {
+    padding-top: 10px;
+}
+.pr-abt-content h5 {
+    font-size: 18px;
+}
+.pr-abt-content p {
+    padding-top: 5px;
+    line-height: 18px;
+    font-size: 12px;
+}
+.pr-abt-volunteer h6 {
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 5px;
+}
+.pr-abt-volunteer {
+    margin-top: 10px;
+}
 }
 @media only screen and (max-width: 400px) {
     .pr-social-work3 {
@@ -456,6 +728,15 @@ img.img-fluid.str-politic {
     }
     .pr-social-work2 {
         left: 165px;
+    }
+    .pr-pagehero-bg {
+        height: 158px;
+    }
+    .pr-top-head-about h1 {
+        font-size: 20px;
+    }
+    .pr-top-head-about {
+        padding-top: 70px;
     }
 }
 @media only screen and (max-width: 375px) {
@@ -465,4 +746,5 @@ img.img-fluid.str-politic {
     .pr-social-work2 {
         left: 140px
     }
+   
 }

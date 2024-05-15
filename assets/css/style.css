@@ -507,7 +507,7 @@ img.img-fluid.str-politic {
 
 /* Start Footer CSS */
 footer {
-    margin-top: 150px;
+    margin-top: 115px;
     background: url('../images/footer-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -594,3 +594,207 @@ footer {
 /* End Footer CSS */
 
 
+/* =====================
+ Start About Page CSS
+ ======================= */
+ .pr-pagehero-bg{
+    background: url('../images/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 583px;
+ }
+ .pr-top-head-about {
+    padding-top: 300px;
+}
+.pr-top-head-about h1 {
+    font-size: 60px;
+    font-family: var(--headding-font-family);
+    color: var(--light-text-color);
+    font-weight: 700;
+    padding-left: 20px;
+}
+.pr-about-sec {
+    margin-top: 80px;
+}
+.pr-about-sec2 {
+    margin-top: 80px;
+}
+.pr-about-sec h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--light-text-color);
+    font-family: var(--headding-font-family);
+    padding-right: 10px;
+    line-height: 60px;
+}
+.pr-about-sec p {
+    font-size: 14px;
+    font-weight: 500;
+    color:var(--dark-color);
+    font-family: var(--words-font-family);
+    padding-right: 10px;
+    line-height: 30px;
+}
+.pr-top-mem h3 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-family: var(--headding-font-family);
+    margin-bottom: 10px;
+}
+.pr-top-mem h3 span{
+    color: var(--main-color);
+}
+.pr-top-mem p {
+    text-align: center;
+    padding-top: 5px;
+    font-family: var(--words-font-family);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+    padding: 5px 100px 0px;
+}
+.pr-top-mem {
+    margin-top: 75px;
+}
+.pr-party-mem {
+    margin-top: 45px;
+}
+.pr-party-mem h4{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--light-text-color);
+  font-family: var(--words-font-family);
+  padding-top: 25px;
+}
+.pr-party-mem p{
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--light-text-color);
+  font-family: var(--words-font-family);
+  padding-top: 10px;
+}
+
+.pr-party-membtm {
+    margin-top: 75px;
+}
+.pr-party-memprofile {
+    margin-top: 75px;
+}
+.pr-party-membtm h4 {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: var(--words-font-family);
+    color: var(--light-text-color);
+    padding-top: 20px;
+}
+.pr-party-membtm p {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--words-font-family);
+    color: var(--text-color);
+    padding-top: 10px;
+}
+.pr-party-membtm .pr-party-para {
+    font-size: 13px;
+    font-weight: 500;
+    font-family: var(--words-font-family);
+    color: var(--text-color);
+    padding-top: 35px;
+    line-height: 27px;
+}
+.pr-party-membtm table {
+    margin-top: 50px;
+}
+.pr-party-membtm table tr td {
+   line-height: 40px;
+   font-size: 14px;
+   font-weight: 600;
+   font-family: var(--words-font-family);
+   color: var(--light-text-color);
+}
+.pr-sign-party {
+    margin-top: 40px;
+}
+.pr-members-social ul {
+    display: flex;
+    margin-top: 50px;
+}
+.pr-members-social ul li{
+    padding-right: 20px;
+}
+.pr-members-social ul li a img{
+    width: 35px;
+}
+.tab-party-padd{
+    padding-left: 30px;
+}
+.pr-about-support {
+    background: url('../images/about-support.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    margin-top: 75px;
+}
+.pr-abt-content {
+    padding-top: 160px;
+    padding-left: 30px;
+    position: relative;
+}
+.pr-abt-content h5{
+ color: var(--light-color);
+ font-family: var(--words-font-family);
+ font-size: 35px;
+ font-weight: 600;
+}
+.pr-abt-content p {
+    color: var(--light-color);
+    font-family: var(--words-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 35px;
+    line-height: 25px;
+}
+.pr-abt-volunteer {
+    margin-top: 75px;
+    text-align: center;
+}
+.pr-abt-volunteer h6 {
+    font-size: 38px;
+    font-weight: 600;
+    font-family: var(--words-font-family);
+    color: var(--light-text-color);
+    line-height: 65px;
+    padding-bottom: 20px;
+}
+.pr-abt-volunteer p.line-abt-volue {
+    width: 20%;
+    height: 2px;
+    background: var(--light-text-color);
+    margin: auto;
+}
+.pr-abt-volunteer p.pr-abt-headvol {
+    font-size: 73px;
+    font-weight: 600;
+    font-family: var(--headding-font-family);
+    color: var(--dark-color);
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+.pr-abt-volunteer p.pr-abt-headvol span{
+    color: var(--main-color);
+}
+.pr-abt-volunteer p{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--dark-color);
+    font-family:var(--words-font-family);
+}
+/* =====================
+ End About Page CSS
+ ======================= */
