@@ -4,6 +4,39 @@
         padding-right: 45px;
         line-height: 50px;
     }
+    .pr-vote-sec2 {
+        margin-top: 110px;
+    }   
+    .pr-vote-sec2 p {
+        padding-top: 25px;
+    }
+    .pr-vote-sec::before{
+        content: "";
+        left: 0;
+        top: 0;
+        position: absolute;
+        background: rgb(0, 0, 0, 0.6); ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+    }
+    .pr-vote-sec2 {
+        margin-top: 110px;
+        position: relative;
+        text-align: center;
+    }
+    .pr-community-bottom h5 {
+        font-size: 38px;
+        line-height: 50px;
+    }
+    .pr-community-bottom p {
+        padding-top: 15px;
+        line-height: 25px;
+    }
+    .pr-community-checks span {
+        padding-left: 10px;
+    }
    
 }
 @media only screen and (max-width: 1200px) {
@@ -60,6 +93,9 @@
     }
     .pr-social-work2 {
         left: 90px;
+    }
+    .pr-community-bottom {
+        padding-left: 0;
     }
 }
 /* tab to mobile Screen */
@@ -176,6 +212,45 @@ img.img-fluid.str-politic {
     margin-top: 0px;
     margin-bottom: 20px;
 }
+.pr-vote-sec2 h5 {
+    font-size: 25px;
+}
+.pr-vote-sec2 p {
+    padding-top: 25px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.pr-vote-sec {
+    height: 380px;
+}
+.pr-vote-sec::before {
+    height: 380px;
+}
+.pr-vote-sec2 {
+    margin-top: 85px;
+}
+.pr-vote-sec2 p {
+    padding-top: 15px;
+}
+.pr-community-bottom h5 {
+    font-size: 25px;
+    line-height: 35px;
+    padding-top: 20px;
+}
+.pr-community-sec {
+    margin-top: 50px;
+}
+.testimonial-section {
+    background: var(--background-light);
+    padding: 25px 0px;
+    margin-top: 28px;
+}
+.owl-dots {
+    bottom: -60px;
+}
+.pr-testimonial-sec2 p {
+    line-height: 25px;
+}
 }
 
 /* Mobile Screen */
@@ -267,6 +342,27 @@ img.img-fluid.str-politic {
 }
 .pr-social-work2 {
     left: 190px;
+}
+.pr-vote-sec2 {
+    margin-top: 80px;
+}
+.pr-vote-sec2 h5 {
+    font-size: 22px;
+}
+.pr-vote-sec2 p {
+    padding-top: 15px;
+    line-height: 25px;
+}
+.pr-community-bottom h5 {
+    font-size: 22px;
+    line-height: 25px;
+    padding-top: 15px;
+}
+.pr-community-bottom p {
+    padding-top: 10px;
+}
+.pr-community-sec {
+    margin-top: 25px;
 }
 }
 @media only screen and (max-width: 400px) {

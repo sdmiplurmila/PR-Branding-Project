@@ -50,6 +50,7 @@ a {
     --light-color: #FFFFFF;
     --text-color: #321900;
     --footer-text: #f0dc83;
+    --background-light:rgb(240, 220, 130, 0.3);
     --headding-font-family:"Montserrat Subrayada", sans-serif;
     --words-font-family:"Montserrat", sans-serif;
 }
@@ -355,5 +356,162 @@ img.img-fluid.str-politic {
 }
 /* End Social Services CSS */
 
+/* Start Vote Section CSS */
+.pr-vote-sec{
+    background: url('../images/vote.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+.pr-vote-sec2 h5 {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--light-color);
+    font-family: var(--words-font-family);
+}
+.pr-vote-sec2 p {
+    color:var(--light-color);
+    font-weight: 600;
+    font-size: 14px;
+    font-family: var(--words-font-family);
+    line-height: 30px;
+    padding-top: 40px;
+}
+.pr-vote-sec2 {
+    margin-top: 170px;
+}
+/* End Vote Section CSS */
+
+/* Start Commmunity Section Css */
+.pr-community-sec {
+    margin-top: 100px;
+}
+.pr-community-bottom {
+    padding-left: 60px;
+}
+.pr-community-bottom h5 {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--light-text-color);
+    font-family: var(--words-font-family);
+    line-height: 60px;
+}
+.pr-community-bottom p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--words-font-family);
+    padding-top: 20px;
+    line-height: 30px;
+}
+.pr-community-checks i{
+    color: var(--main-color);
+    font-weight: 500;
+}
+.pr-community-checks span{
+    color: var(--light-text-color);
+    font-weight: 500;
+    padding-left: 20px;
+}
+/* End Commmunity Section Css */
+
+/* Start Testimonial Css */
+.pr-testimonial-sec {
+    display: flex;
+    gap: 30px;
+}
+.pr-testimonial-sec2 p {
+    color: var(--light-text-color);
+    font-weight: 600;
+    font-size: 14px;
+    font-family: var(--words-font-family);
+    line-height: 30px;
+}
+.pr-testimonial-sec2 h6 {
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 20px;
+    font-family: var(--words-font-family);
+    line-height: 30px;
+    padding-top: 25px;
+}
+.testimonial-section {
+    background: var(--background-light);
+    padding: 100px 0px;
+    margin-top: 100px;
+}
+.item {
+    padding: 0px 15px;
+}
+
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+  }
+  .owl-nav button.owl-prev {
+    left: 0;
+  }
+  .owl-nav button.owl-next {
+    right: 0;
+  }
+  
+  .owl-dots {
+    text-align: center;
+    padding-top: 13px;
+    position: absolute;
+    bottom: -170px;
+    margin: auto;
+    width: 100%;
+}
+  .owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: 
+    rgba(150, 75, 0, 0.4);
+    margin: 0 3px;
+  }
+  .owl-dots button.owl-dot.active {
+    background-color: var(--light-text-color);
+  }
+  .owl-dots button.owl-dot:focus {
+    outline: none;
+  }
+  .owl-nav button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(255, 255, 255, 0.38) !important;
+  }
+  /* span {
+      font-size: 70px;    
+      position: relative;
+      top: -5px;
+  } */
+  .owl-nav button:focus {
+      outline: none;
+  }
+
+/* End Testimonial Css */
+
+
+/* Start Footer CSS */
+footer {
+    margin-top: 150px;
+    background: url('../images/footer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.pr-footer1 {
+    margin-top: 70px;
+}
+/* End Footer CSS */
 
 
