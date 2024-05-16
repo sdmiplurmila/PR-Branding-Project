@@ -1050,3 +1050,66 @@ Start Gallery Page CSS
  /* =====================
 End Gallery Page CSS 
  ========================*/
+ /*=====================
+  Start Blog Page CSS 
+  ======================*/
+  .pr-blog-sec {
+    margin-top: 75px;
+}
+.blog-btm-sec h2{
+           padding-top: 30px;
+           font-size: 30px;
+           font-family: var(--headding-font-family);
+           font-weight: 700;
+           color: var(--text-color);
+}
+.blog-btm-sec h2 span{
+    color: var(--main-color);
+}
+.blog-btm-sec p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+    color: var(--dark-color);
+    font-family: var(--words-font-family);
+    padding-top: 15px;
+    word-spacing: 3px;
+}
+ol.blog-btm-list li {
+    padding-top: 25px;
+    color: var(--dark-color);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--words-font-family);
+    line-height: 30px;
+    list-style: decimal;
+}
+ol.blog-btm-list li span{
+    font-weight: 700;
+}
+.pr-blog-content{
+    margin-top: 50px;
+}
+.pr-blog-content-secs {
+    margin-top: 20px;
+    padding: 20px 30px;
+}
+.pr-blog-content-secs h4{
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--dark-color);
+    font-family: var(--words-font-family);
+}
+.pr-blog-content-secs p{
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--dark-color);
+    line-height: 25px;
+    font-family: var(--words-font-family);
+}
+
+ /*=====================
+  End Blog Page CSS 
+  ======================*/
