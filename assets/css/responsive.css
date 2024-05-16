@@ -37,7 +37,12 @@
     .pr-community-checks span {
         padding-left: 10px;
     }
-   
+    img.news-card__image.card-high-con {
+        height: 208px;
+    }
+    .pre-sch-sec {
+        padding: 20px 40px;
+    }
 }
 @media only screen and (max-width: 1200px) {
     li.nav-item.nav-space {
@@ -86,6 +91,12 @@
     .pr-abt-content p {
         padding-top: 10px;
         line-height: 24px;
+    }
+    img.news-card__image.card-high-con {
+        height: 174px;
+    }
+    .pre-sch-sec {
+        padding: 10px 10px;
     }
    
 }
@@ -249,6 +260,33 @@
     }
     .pr-event-right {
         margin-top: 15px;
+    }
+    img.news-card__image.card-high-con {
+        height: 100%;
+    }
+    .card-mg-tp {
+        margin-top: 15px;
+    }
+    .card-mg-tp2 {
+        margin-top: 0px;
+    }
+    .pr-event-sp::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: none;
+        margin-top: 0px;
+        height: 420px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .pr-about-support.pr-event-sp {
+        margin-top: 0px;
+    }
+    .pre-sch-sec {
+        margin-top: 10px;
     }
 }
 /* tab to mobile Screen */
@@ -552,6 +590,30 @@ footer {
     line-height: 21px;
     padding-top: 5px;
 }
+.news-card__title {
+    font-size: 16px;
+    font-weight: 600;
+}
+.news-card__text-wrapper {
+    padding: 0px 0px 10px 20px;
+}
+.caalnder-sec p {
+    font-size: 12px;
+    line-height: 16px;
+}
+.caalnder-sec {
+    padding: 4px 18px;
+}
+.pre-sch-sec-left h6 {
+    font-size: 14px;
+    font-weight: 600;
+}
+.pre-sch-sec-left p {
+    font-size: 13px;
+}
+.pre-sch-sec-left .pre-sch-sec-para {
+    font-size: 13px;
+}
 }
 
 /* Mobile Screen */
@@ -586,6 +648,16 @@ footer {
     }
     .pr-abt-volunteer p.pr-abt-headvol {
         font-size: 20px;
+    }
+    .news-card__excerpt {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+    .news-card__title {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 0px;
     }
 }
 

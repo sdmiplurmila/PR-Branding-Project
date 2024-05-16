@@ -44,7 +44,7 @@ a {
 
 /* Root CSS */
 :root{
-    --main-color:#FFA500;
+    --main-color:#ffa500;
     --light-text-color: #964B00;
     --dark-color: #1E0F00;
     --light-color: #FFFFFF;
@@ -853,6 +853,152 @@ footer {
     height: 215px;
     width: 100%;
 }
+.card-mg-tp {
+    margin-top: 75px;
+}
+ .card-mg-tp2 {
+    margin-top: 75px;
+}
+ .caalnder-sec {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    padding: 6px 25px;
+    background: var(--main-color);
+    text-align: center;
+    border-radius: 0px 0px 5px 5px;
+}
+.caalnder-sec p {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text-color);
+    line-height: 20px;
+    font-family: var(--words-font-family);
+}
+img.news-card__image.card-high-con {
+    height: 243px;
+}
+
+.news-card {
+	border: 0px solid aqua;
+	margin-bottom: 15px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0.5rem;
+	flex: 1;
+	min-width: 290px;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	&::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(255, 165, 0, 0) linear-gradient(to bottom, rgba(255, 165, 0, 0) 50%, rgba(203, 95, 0, 0.5) 80%);
+
+		z-index: 0;
+	}
+}
+.news-card__card-link {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.news-card__image {
+	width: 100%;
+	height: 100%;
+	display: block;
+	object-fit: cover;
+	transition: transform 0.5s ease;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	position: relative;
+	z-index: -1;
+}
+.news-card__text-wrapper {
+    position: absolute;
+    bottom: 0rem;
+    /* padding: 4rem; */
+    padding-top: 208px;
+    color: white;
+    transition: background-color 1.5s ease;
+    width: 100%;
+    padding: 0px 0px 20px 65px;
+}
+.news-card__title {
+	transition: color 1s ease;
+	margin-bottom: 0.5rem;
+    color: var(--light-color);
+    font-size: 22px;
+    font-weight: 600;
+    font-family: var(--words-font-family);
+}
+.news-card__post-date {
+	font-size: 0.7rem;
+	margin-bottom: 0.5rem;
+	color: #ccc;
+}
+.news-card__details-wrapper {
+	max-height: 0;
+	opacity: 0;
+	transition: max-height 1.5s ease, opacity 1s ease;
+}
+.news-card__excerpt {
+    color: var(--light-color);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--words-font-family);
+    line-height: 20px;
+}
+
+.pr-event-sp{
+    background: url('../images/vote-bgg.png');
+}
+.pre-sch-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 104px;
+    margin-top: 50px;
+}
+.pre-sch-sec-left p{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: var(--words-font-family);
+    color: var(--light-text-color);
+}
+.pre-sch-sec-left h6{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: var(--words-font-family);
+    color: var(--dark-color);
+    padding-top: 5px;
+}
+.pre-sch-sec-left .pre-sch-sec-para{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--words-font-family);
+    color: var(--dark-color);
+    line-height: 20px;
+    padding-top: 5px;
+}
+img.img-fluid.sch-pics {
+    height: 100px;
+    max-width: 100px;
+}
  /* =====================
  End Events Page CSS 
+ ========================*/
+ /* =====================
+Start Gallery Page CSS 
+ ========================*/
+ /* =====================
+End Gallery Page CSS 
  ========================*/
