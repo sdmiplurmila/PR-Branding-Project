@@ -309,6 +309,21 @@
         margin-top: 10px;
         padding: 10px 20px;
     }
+    .pr-blog-btm-sec {
+        margin-top: 20px;
+    }
+    .pr-blog-table {
+        margin-top: 20px;
+    }
+    .blog-pr-comsec {
+        margin-top: 10px;
+    }
+    .pr-blog-user-comments {
+        margin-top: 20px;
+    }
+    .pr-post-blogcomm {
+        margin-top: 20px;
+    }
 }
 /* tab to mobile Screen */
 @media only screen and (max-width: 767px) {
@@ -672,6 +687,29 @@ ol.blog-btm-list li {
 .pr-blog-content {
     margin-top: 0px;
 }
+.pr-blog-btm-sec {
+    margin-top: 0px;
+}
+.pr-blog-table {
+    margin-top: 10px;
+}
+table .bolg-tab-sections tr th {
+    font-size: 16px;
+    font-weight: 600;
+}
+table .bolg-tab-sections tr td {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.blog-comm-head {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.pr-blog-user-comments {
+    margin-top: 15px;
+}
 }
 
 /* Mobile Screen */
@@ -737,6 +775,30 @@ ol.blog-btm-list li {
         font-size: 14px;
         line-height: 22px;
     }
+    .pr-blog-user-comments {
+        gap: 15px;
+        margin-top: 15px;
+    }
+    .pr-blog-user-comments img{
+        width: 75px;
+    }
+    .pr-blog-user-comments p {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    h6.pr-bgpost-comment {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    .blg-commnet-placeholder {
+        padding: 5px 10px;
+    }
+    .mb-4.blog-top-mg {
+        margin-bottom: 10px !important;
+    }
+    
 }
 
 /* Mobile Screen */

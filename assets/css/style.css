@@ -1101,15 +1101,176 @@ ol.blog-btm-list li span{
     color: var(--dark-color);
     font-family: var(--words-font-family);
 }
-.pr-blog-content-secs p{
+.pr-blog-content-secs p {
     padding-top: 10px;
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 500;
     color: var(--dark-color);
     line-height: 25px;
     font-family: var(--words-font-family);
 }
-
+.pr-blog-outbd {
+    border: 1px solid rgb(179 179 179 / 70%);
+    border-radius: 5px;
+    padding: 30px;
+}
+.pr-blog-innerbd h5{
+    font-size: 15px;
+    font-weight: 700;
+    font-family:var(--words-font-family);
+    color: var(--light-text-color);
+    line-height: 30px;
+    position: relative;
+}
+.pr-blog-innerbd h5::before {
+    content: "";
+    top: 28px;
+    left: 0px;
+    position: absolute;
+    border-bottom: 2px solid var(--light-text-color);
+    height: 2px;
+    width: 50px;
+}
+button.btn.searc-btn-blog {
+    background: rgba(175, 128, 81, 1);
+    width: 50px;
+    border-radius: 5px;
+    border: rgba(175, 128, 81, 1);
+}
+.pr-blog-innerbd .input-group{
+    margin-top: 36px;
+    border: 1px solid var(--dark-color) !important;
+    border-radius: 5px!important;
+}
+.pr-blog-innerbd.input-group>.form-control{
+    position: relative;
+    flex: 1 1 auto;
+    width: 1%;
+    min-width: 0;
+}
+.pr-blog-innerbd2 h5 {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: var(--words-font-family);
+    color: var(--light-text-color);
+    line-height: 30px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.pr-blog-innerbd2 h5::before {
+    content: "";
+    top: 28px;
+    left: 0px;
+    position: absolute;
+    border-bottom: 2px solid var(--light-text-color);
+    height: 2px;
+    width: 76px;
+}
+.pr-blog-innerbd3 h5{
+    font-size: 15px;
+    font-weight: 700;
+    font-family:var(--words-font-family);
+    color: var(--light-text-color);
+    line-height: 30px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.pr-blog-innerbd3 h5::before {
+    content: "";
+    top: 28px;
+    left: 0px;
+    position: absolute;
+    border-bottom: 2px solid var(--light-text-color);
+    height: 2px;
+    width: 76px;
+}
+.pr-blog-innerbd2 p{
+     color: var(--light-text-color);
+     font-size: 13px;
+     font-weight: 500;
+     font-family: var(--words-font-family);
+     line-height: 30px;
+}
+.pr-blog-innerbd2 .line-btmmm{
+    border-bottom: 1px;
+    border-style: dashed;
+    line-height: 25px;
+}
+.pr-blog-innerbd3 p{
+    color: var(--light-text-color);
+    font-size: 13px;
+    font-weight: 500;
+    font-family: var(--words-font-family);
+    line-height: 20px;
+}
+.pr-blog-btm-sec {
+    margin-top: 75px;
+}
+.pr-blog-table {
+    margin-top: 75px;
+}
+table .bolg-tab-sections tr th {
+    color: var(--light-text-color);
+    font-size: 25px;
+    font-weight: 700;
+    font-family: var(--words-font-family);
+}
+table .bolg-tab-sections tr td {
+    color: var(--dark-color);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: var(--words-font-family);
+    line-height: 25px;
+}
+.blog-pr-comsec{
+    margin-top: 75px;
+}
+.blog-comm-head{
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--light-text-color);
+    font-family: var(--words-font-family);
+    margin-bottom: 20px;
+}
+.pr-blog-user-comments {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+.pr-blog-user-comments p{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--words-font-family);
+    color: var(--dark-color);
+    line-height: 25px;
+}
+.pr-post-blogcomm {
+    margin-top: 75px;
+}
+h6.pr-bgpost-comment {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--light-text-color);
+    font-family: var(--words-font-family);
+}
+.blg-commnet-placeholder::placeholder {
+    color: var(--dark-color); 
+    font-family: var(--words-font-family);
+    font-size: 14px;
+    font-weight: 600;
+}
+.blg-commnet-placeholder{
+    padding: 10px;
+}
+button.btn.mb-3.blog-post-btn {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: var(--dark-color); 
+    font-family: var(--words-font-family);
+    font-size: 14px;
+    font-weight: 600;
+}
  /*=====================
   End Blog Page CSS 
   ======================*/
