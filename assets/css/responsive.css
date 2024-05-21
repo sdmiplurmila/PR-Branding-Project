@@ -98,6 +98,13 @@
     .pre-sch-sec {
         padding: 10px 10px;
     }
+    .bio-abt-htsec {
+        height: 345px;
+    }
+    .pr-bio-btmsection {
+        margin-top: 130px;
+        padding-left: 30px;
+    }
    
 }
 @media only screen and (max-width: 1024px) {
@@ -323,6 +330,82 @@
     }
     .pr-post-blogcomm {
         margin-top: 20px;
+    }
+    .pr-bio-content h3 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    .pr-bio-content h2 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .pr-bio-content p {
+        margin-top: 10px;
+    }
+    ul.pr-biograpgy-social {
+        gap: 15px;
+        margin-top: 10px;
+    }
+    ul.pr-biograpgy-social li a img{
+        width: 20px;
+    }
+    .pr-bio-userpara p {
+        margin-top: 10px;
+        line-height: 22px;
+    }
+    img.img-fluid.bio-user-picture {
+        height: auto;
+    }
+    .pr-bio-aboutcontent p {
+        font-size: 12px;
+        margin-top: 10px;
+        line-height: 22px;
+        padding-right: 0px;
+    }
+    .pr-bio-aboutcontent h4 {
+        font-size: 22px;
+        margin-top: 5px;
+        font-weight: 600;
+    }
+    .pr-bio-aboutcontent h3 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+    ul.bio-abt-list li {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 22px;
+        margin-top: 5px;
+    }
+    .pr-user-biograpgy {
+        margin-top: 35px;
+    }
+    .pr-bio-abt {
+        margin-top: 35px;
+    }
+    .pr-bio-pacsec {
+        margin-top: 35px;
+    }
+    .pr-bio-abtsec-content p {
+        margin-top: 0px;
+        line-height: 22px;
+    }
+    .col-lg-5.col-md-6.col-sm-12.pr-bio-pacsections {
+        margin-top: 20px;
+    }
+    .col-lg-7.col-md-6.col-sm-12.pr-bio-pacsections {
+        margin-top: 20px;
+    }
+    .bio-abt-htsec {
+        height: 255px;
+    }
+    .pr-bio-btmsection {
+        margin-top: 45px;
+        padding-left: 20px;
+    }
+    .bio-abt-history {
+        margin-top: 35px;
     }
 }
 /* tab to mobile Screen */
@@ -710,6 +793,60 @@ table .bolg-tab-sections tr td {
 .pr-blog-user-comments {
     margin-top: 15px;
 }
+.pr-bio-content h2 {
+    font-size: 18px;
+}
+.pr-bio-content h3 {
+    font-size: 16px;
+    margin-top: 5px;
+}
+ul.bio-abt-list li i {
+    font-size: 12px;
+}
+img.img-fluid.abt-pr-biography {
+    height: auto;
+    margin-top: 10px;
+}
+.pr-user-biograpgy {
+    margin-top: 15px;
+}
+.pr-bio-abt {
+    margin-top: 15px;
+}
+.pr-bio-aboutcontent h3 {
+    font-size: 16px;
+}
+.pr-bio-aboutcontent h4 {
+    font-size: 16px;
+}
+ul.bio-abt-list {
+    margin-top: 10px;
+}
+.pr-bio-pacsec {
+    margin-top: 15px;
+}
+.col-lg-5.col-md-6.col-sm-12.pr-bio-pacsections {
+    margin-top: 10px;
+}
+.col-lg-7.col-md-6.col-sm-12.pr-bio-pacsections {
+    margin-top: 10px;
+}
+.bio-abt-htsec {
+    height: 190px;
+}
+.pr-bio-btmsection h6 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+.pr-bio-btmsection p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+}
+.bio-abt-history {
+    margin-top: 15px;
+}
 }
 
 /* Mobile Screen */
@@ -798,7 +935,15 @@ table .bolg-tab-sections tr td {
     .mb-4.blog-top-mg {
         margin-bottom: 10px !important;
     }
-    
+    .pr-bio-userpara p {
+        line-height: 22px;
+    }
+    .pr-bio-abtsec-content h6 {
+        font-size: 18px;
+    }
+    .bio-abt-htsec {
+        height: 180px;
+    }
 }
 
 /* Mobile Screen */
@@ -968,6 +1113,14 @@ img.img-fluid.str-politic {
 }
 .pr-abt-volunteer {
     margin-top: 10px;
+}
+.pr-bio-btmsection {
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.bio-abt-htsec {
+    height: 155px;
 }
 }
 @media only screen and (max-width: 400px) {
