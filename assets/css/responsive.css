@@ -407,6 +407,12 @@
     .bio-abt-history {
         margin-top: 35px;
     }
+    .pr-contact-form {
+        margin-top: 15px;
+    }
+    .map-div{
+        margin-top: 35px;
+    }
 }
 /* tab to mobile Screen */
 @media only screen and (max-width: 767px) {
@@ -845,6 +851,9 @@ ul.bio-abt-list {
     line-height: 15px;
 }
 .bio-abt-history {
+    margin-top: 15px;
+}
+.map-div{
     margin-top: 15px;
 }
 }

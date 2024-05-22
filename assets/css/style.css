@@ -1433,4 +1433,33 @@ img.img-fluid.abt-pr-biography {
  /*=====================
   End Biography Page CSS
   ======================*/
+ /*=====================
+  Start Contact Page CSS
+  ======================*/
+  .pr-contact-form{
+    margin-top: 50px;
+  }
+ .pr-contact-details::placeholder{
+    color: var(--dark-color); 
+    font-family: var(--words-font-family);
+    font-size: 14px;
+    font-weight: 500;
+  }
+  button.pr-conform-btn {
+    background: rgba(240, 220, 130, 1);
+    border: 1px solid rgba(240, 220, 130, 1);
+    padding: 0px 10px;
+}
+button.pr-conform-btn a{
+    color: var(--dark-color); 
+    font-family: var(--words-font-family);
+    font-size: 14px;
+    font-weight: 500;
+}
+.map-div{
+    margin-top: 75px;
+}
+ /*=====================
+  End Contact Page CSS
+  ======================*/
 
